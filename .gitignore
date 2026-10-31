@@ -1,0 +1,4 @@
+src/
+.venv/
+_t.html
+.DS_Store
