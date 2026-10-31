@@ -98,6 +98,6 @@ const BLOB = __BLOB__;
 </script>
 """
 
-PRE = '<!doctype html>\n<html lang="fr">\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
+PRE = '<!doctype html>\n<html lang="fr">\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">\n<link rel="manifest" href="manifest.webmanifest">\n<link rel="apple-touch-icon" href="apple-touch-icon.png">\n<link rel="icon" href="icon-192.png">\n<meta name="apple-mobile-web-app-capable" content="yes">\n<meta name="mobile-web-app-capable" content="yes">\n<meta name="apple-mobile-web-app-status-bar-style" content="default">\n<meta name="apple-mobile-web-app-title" content="Guide interne">\n'
 OUT.write_text(PRE + head + LOCK.replace("__BLOB__", json.dumps(blob)), encoding="utf-8")
 print(f"OK : {OUT.name} ({OUT.stat().st_size // 1024} Ko)")
