@@ -47,11 +47,11 @@ blob["n"] = ITER
 LOCK = """
 <style>
 .lock{min-height:80vh;display:flex;align-items:center;justify-content:center;padding-inline:18px}
-.lock form{width:100%;max-width:340px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 20px;box-shadow:var(--shadow)}
+.lock form{width:100%;max-width:340px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 20px}
 .lock h1{font-family:var(--serif);font-weight:600;font-size:28px;margin:0 0 6px}
 .lock p{margin:0 0 16px;color:var(--muted);font-size:15px}
 .lock input{width:100%;font:18px var(--sans);padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink);margin:0 0 10px}
-.lock button{width:100%;font:700 16px var(--sans);padding:12px;border:0;border-radius:10px;background:var(--accent);color:var(--accent-ink);cursor:pointer}
+.lock button{width:100%;font:700 16px var(--sans);padding:12px;border:0;border-radius:10px;background:var(--solid);color:var(--solid-ink);cursor:pointer}
 .lock .err{color:var(--warn);font-size:14.5px;min-height:1.4em;margin:8px 0 0}
 </style>
 <div class="lock" id="lock">
