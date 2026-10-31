@@ -56,6 +56,7 @@ LOCK = """
 </style>
 <div class="lock" id="lock">
   <form id="lockform" autocomplete="off">
+    <img src="logo-dmu.png" alt="DMU Impact" style="display:block;height:28px;width:auto;margin:0 0 14px;opacity:.9">
     <p class="eyebrow">Psychiatrie · Intra · ACH</p>
     <h1>Guide de l'interne</h1>
     <p>Entrez le code d'accès communiqué par le service.</p>
